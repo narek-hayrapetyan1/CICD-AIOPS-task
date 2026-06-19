@@ -88,10 +88,6 @@ jobs:
         working-directory: src/backend
         run: npm ci
 
-      - name: Install frontend dependencies
-        working-directory: src/frontend
-        run: npm ci
-
       - name: Run SonarQube scan
         uses: SonarSource/sonarqube-scan-action@v4
         env:
