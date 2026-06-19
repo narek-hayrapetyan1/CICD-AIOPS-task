@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "src/**"
-      - ".github/workflows/ci-cd.yml"
+      - ".github/workflows/ci.cd.yml"
 
   push:
     branches:
@@ -15,7 +15,7 @@ on:
       - "v*.*.*"
     paths:
       - "src/**"
-      - ".github/workflows/ci-cd.yml"
+      - ".github/workflows/ci.cd.yml"
 
 permissions:
   contents: write
